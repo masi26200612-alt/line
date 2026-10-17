@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e9e9e9;
+}
+
+/* Mobile screen */
+
+.phone {
+    width: 100%;
+    max-width: 390px;
+    min-height: 100dvh;
+    margin: 0 auto;
+    background: #fff;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+
+
+
+/* Amount */
+
+.amount {
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 70px;
+}
+
+.amount h1 {
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.amount p {
+    font-size: 20px;
+    color: #949090;
+    margin-top: 8px;
+}
+
+/* Details cards */
+
+.details {
+    background: #eeeef0;
+    margin: 0 20px 12px;
+    padding: 22px 15px;
+    border-radius: 16px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}
+
+.row span {
+    color: #999;
+    flex-shrink: 0;
+}
+
+.row strong {
+    font-weight: 600;
+    text-align: right;
+}
+
+.completed {
+    color: #23a562;
+}
+
+.recipient strong {
+    overflow-wrap: anywhere;
+    line-height: 1.5;
+}
+
+.second {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* Bottom button */
+
+footer {
+    margin-top: auto;
+    padding: 25px 20px 45px;
+}
+
+footer button {
+    width: 100%;
+    padding: 15px;
+    border: 2px dashed #b6b1b1;
+    border-radius: 15px;
+    background: white;
+    color: #47458f;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Laptop */
+
+@media (min-width: 600px) {
+
+    .phone {
+        min-height: 844px;
+        height: 844px;
+    }
+
+}
